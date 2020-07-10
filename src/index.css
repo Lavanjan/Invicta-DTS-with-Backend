@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.site-layout-content {
+  background: #fff;
+  padding: 24px;
+  min-height: 280px;
+}
+#components-layout-demo-top .logo {
+  width: 120px;
+  height: 31px;
+  background: rgba(255, 255, 255, 0.2);
+  margin: 16px 24px 16px 0;
+  float: left;
+}
+.site-page-header {
+  border: 0px solid rgb(3, 27, 63);
+}
+.logo {
+  width: 200px;
+  height: 30px;
+  /* background: rgba(255, 255, 255, 0.2); */
+  background-image: url(./assets/images/logo.jpg);
+  margin: 18px 10px 10px 0;
+  float: left;
+}
+  [data-theme="dark"] .site-layout-content {
+    background: #141414;
+  }
+  [data-theme="dark"] .logo {
+    background: rgba(255,255,255,0.3);
+  }
+  .site-layout-content {
+    background: #fff;
+    padding: 24px;
+    min-height: 280px;
+  }
+.sub{
+  float: right;
+  color: white;
+}
+.ant-dropdown-link {
+  color: white;
+}
+/* .login-form {
+  max-width: 300px;
+} */
+.login-form-forgot {
+  float: right;
+}
+.ant-col-rtl .login-form-forgot {
+  float: left;
+}
+.login-form-button {
+  width: 100%;
+}
